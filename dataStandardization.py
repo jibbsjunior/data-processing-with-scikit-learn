@@ -20,4 +20,13 @@ col_means = col_standardized.mean(axis=0).round(decimals=3)
 
 #COlumn standard deviation
 col_std = col_standardized.std(axis=1)
-print('{}\n'.format(repr(col_std)))
+# print('{}\n'.format(repr(col_std)))
+
+#Quiz
+# 1. This function will standardize the input NumPy array, data, by using the scale function (imported in the backend).
+# def standardize_data(data):
+#   # CODE HERE
+#   scaled_data = scale(data)
+
+#   return scaled_data
+#   pass
